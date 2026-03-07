@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>
+        Forms program
+    </title>
+</head>
+<body>
+    <form action="success.html" method=""get>
+        Name: <input type="text" name="sai" placeholder="Enter your name" autofocus>
+        <br>
+        <br>
+        Email: <input type="email" name="sai1" placeholder="abc@gmail.com" required autofocus>
+        <br><br>
+        Contact no: <input type="tel" name="sai2" placeholder="10 Digit phone no" pattern="[0-9]{10}"required>
+        <br><br>
+        Select you Gender: <input type="radio" name="gender">Male 
+        <input type="radio" name="gender">Female
+            <br><br>
+        Select Skills: <input type="checkbox" name="skills">FWD 
+                       <input type="checkbox" name="skills">DSA
+                       <input type="checkbox" name="skills">Maths
+                       <br><br>
+        Inter Marks Percentage: <input type="number" name="Marks"min="0"max="100">
+        <br><br>
+        Enter the Address: <textarea rows="3" cols="40" placeholder="Enter Address"></textarea>
+        <br><br>
+        Select btech Domain: <select name="domain">
+            <option>CSE</option>
+            <option>CS&IT</option>
+            <option>ECE</option>
+            <option>AI&DS</option>
+            </select>
+            <br><br>
+            Upload your photo: <input type="file" name="photo">
+            <br><br>
+            password: <input type="password"name="password">
+            <br><br>
+            <input type="checkbox" name="terms">Accept Terms  & Conditions
+            <br><br>
+            <button type="submit">registor</button>
+            <button type="reset">clear</button>
+         </form>
+    </body>
+</html>

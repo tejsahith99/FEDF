@@ -1,0 +1,23 @@
+<script>
+    let Promise=new Promise(function(resolve,reject){
+        resolve(5);
+    });
+    Promise 
+     .then(function(result){
+        console.log("result:",result);
+          return result+10;
+    })
+    .then(function(num){
+        console.log("Step 1:",num);
+          return num*2;
+    })
+  
+       .then(function(finalresult){
+        console.log("final result:",finalresult);
+          return num*2;
+    })
+       .catch(function(error){
+        console.log(error);
+        
+    })
+</script>
